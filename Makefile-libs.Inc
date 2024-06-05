@@ -59,7 +59,7 @@ POSTRS_PROFILER_URL ?= https://github.com/spacemeshos/post-rs/releases/download/
 
 POSTRS_SERVICE_ZIP = service-$(platform)-v$(POSTRS_SETUP_REV).zip
 #POSTRS_SERVICE_URL ?= https://github.com/spacemeshos/post-rs/releases/download/v$(POSTRS_SETUP_REV)/$(POSTRS_SERVICE_ZIP)
-POSTRS_SERVICE_URL ?= https://github.com/max1015070108/post-rs/releases/download/testmode/post-service
+POSTRS_SERVICE_URL ?= https://github.com/max1015070108/post-rs/releases/download/testmode/post-service.zip
 ifeq ($(platform), windows)
 	POSTRS_SETUP_LIBS = post.h post.dll
 
